@@ -2,7 +2,7 @@
 *    Brian Chairez                                                           *
 *    Goal: std::list implementation of std::stack                            *
 *    Advantages:                                                             *
-*       -Fast operations: o(1) push(), pop(), and top()                      *
+*       -Fast operations: O(1) push(), pop(), and top()                      *
 *       -Built in list functions and size tracking are helpful               *
 *    Disadvantages:                                                          *
 *       -Can only remove from the top one at a time                          *

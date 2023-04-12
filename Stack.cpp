@@ -10,9 +10,11 @@ Stack<T>::Stack() {}
 // Fill Constructor 
 // Time Complexity: O(N), where N is the number specified by capacity
 template <class T>
-Stack<T>::Stack(int& capacity, const T& data) {
+Stack<T>::Stack(const int& capacity, const T& data) {
     if (capacity <= 0) {
-        capacity = 1;
+        std::list<T> temp(1, data);
+        stack_.swap(temp);
+        return;
     }
 
     std::list<T> temp_stack(capacity, data);

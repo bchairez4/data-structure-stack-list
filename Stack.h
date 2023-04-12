@@ -4,7 +4,7 @@
 *    Advantages:                                                             *
 *       -Fast operations: O(1) push(), pop(), and top()                      *
 *       -Built in list functions and size tracking are helpful               *
-*    Disadvantages:                                                          *
+*    Limitations:                                                            *
 *       -Can only remove from the top and one at a time from the stack       *
 *       -No way to access anything in the middle or beginning of the stack   *
 *       -Lists are known for their poor reference locality                   *

@@ -67,7 +67,7 @@ void Stack<T>::pop() {
 *****************************************************************************/
 // Time Complexity: O(1)        !!WARNING: Undefined Behavior is queue is empty
 template <class T>
-T& Stack<T>::top() {
+T Stack<T>::top() const {
     return stack_.back();
 }
 
